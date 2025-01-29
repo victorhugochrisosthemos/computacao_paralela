@@ -6,7 +6,7 @@
 
 ## Sobre o que é nosso projeto?
 
-- O projeto é uma atividade avaliativa para otimizar um tipo de ataque cibernético chamado ataque de dicionário, sobre as tentativas de validação de senhas usados valores aleatórios com um tamanho de 5 caracteres de testes.
+- O projeto é uma atividade avaliativa para otimizar um tipo de ataque de dicionário, sobre as tentativas de validação de senhas usados valores aleatórios com um tamanho de 5 caracteres de testes.
 
 ## Conceitos
 
