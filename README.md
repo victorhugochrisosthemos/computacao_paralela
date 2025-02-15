@@ -15,7 +15,7 @@
 - Multiprocessing é uma biblioteca Python que foi utilizada nessa trabalho, basicamente ela consegue ajudar a separar processos em núcleos de processamento diferentes para otimizar a tarefa
 - Sabendo que em uma base de dados geralmente as senhas dos usuários não são armazenadas como são digitadas pelo indivíduos, tentamos simular esse ataque de dicionário com a utilização da criptografia SHA-256, da biblioteca hashlib do Python
 
-## Integrantes do grupo de apresentação
+## Integrantes do grupo
 - [Vinícius Gaboardi](https://www.linkedin.com/in/vin%C3%ADcius-gaboardi-silva-710024325/)
 - [Victor Chrisosthemos](https://www.linkedin.com/in/victor-c-6a9081b0/)
 - [João Eduardo]()
