@@ -8,6 +8,5 @@
 
 - Posso afirmar que o processo usando paralelismo é 64,38% mais rápido 
 do que o sequencial nesse caso
-
-<br><br>
+---
 - Na faculdade de Ciência da Computação, mais de uma vez mais de um professor já falou isso: “um bom programador é aquele em que programa levando em consideração os aspectos do hardware que vai rodar o seu código”. Agora, um artifício ensinado nas aulas que comprova essa afirmação de maneira bem clara é referente ao paralelismo.
