@@ -9,6 +9,10 @@
 - Posso afirmar que o processo usando paralelismo é 64,38% mais rápido 
 do que o sequencial nesse caso
 ---
+
+![image](https://github.com/user-attachments/assets/fd01dc06-775e-4433-9539-91246957f16e)
+
+
 - Na faculdade de Ciência da Computação, mais de uma vez mais de um professor já falou isso: “um bom programador é aquele em que programa levando em consideração os aspectos do hardware que vai rodar o seu código”. Agora, um artifício ensinado nas aulas que comprova essa afirmação de maneira bem clara é referente ao paralelismo.
 - Por que o paralelismo é tão importante? Quando se fala de  paralelizar um processo busca-se com essa ação melhorar o desempenho, e sobre a questão de desempenho entende-se diminuir o tempo de processamento de um algoritmo, por exemplo. No mundo atual, certos processos não são aptos a serem paralelizados como os processos de Redes Neurais Concorrentes (RNNs) e o de Redes de Computadores devido às suas dependências sequenciais. Sobre modelos de Inteligência Artificial, ganhos em relação a desempenho foram observados no modelo Transformer e no atual modelo da DeepSeek devido a conseguirem paralelizar processos que envolvam o treinamento. Porém, em relação a Redes de Computadores as etapas de processamento parecem depender de sequência porque os dados passam por camadas (modelo OSI) de comunicação entre sistemas.
 - Quantos números primos existem entre 1 e 10 mil? E de 1 até 100 milhões? Um pequeno teste que realizei para observar o paralelismo em prática foi gerar um algoritmo que conta a quantidade de números primos em um determinado range. A ideia for realizar o processo de maneira sequencial, maneira normal de processamento com uma task entregando um processo por vez ao processador, e também testei o gerenciando as threads do processador (8 threads) dividindo as tasks de 8 em 8. Então, na parte paralelizada é feito a divisão do LIMITE (rannge máximo que será procurado números primos) pela quantidade de threads configurada (8).
