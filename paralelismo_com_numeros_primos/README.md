@@ -1,6 +1,4 @@
-# Ao tentar descobrir a quantidade de números primos de 1 até 100 milhões 
-utilizando um algoritmo em C, o processo sequencial demorou 427,89 segundos 
-e o processo usando paralelismo demorou 152,41 segundos
+### Ao tentar descobrir a quantidade de números primos de 1 até 100 milhões utilizando um algoritmo em C, o processo sequencial demorou 427,89 segundos e o processo usando paralelismo demorou 152,41 segundos
 
 - 427,89 - 152,41 = 275,48 segundos de diferença entre um processo e outro
 
