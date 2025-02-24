@@ -1,3 +1,5 @@
+# Como gerar a redução do tempo de execução de um algoritmo em até 64,38% utilizando Programação Paralela!
+
 ### Ao tentar descobrir a quantidade de números primos de 1 até 100 milhões utilizando um algoritmo em C, o processo sequencial demorou 427,89 segundos e o processo usando paralelismo demorou 152,41 segundos
 
 - 427,89 - 152,41 = 275,48 segundos de diferença entre um processo e outro
@@ -35,3 +37,15 @@ do que o sequencial nesse caso
   <br>
   
 - Algo percebido ao ler que não usei nesse teste foi que paralelizar as vezes é necessário a sincronização dos dados depois de processados, o método pthread_join é indicado para cuidar disso. Outra questão foi sobre a uma possível disputa, pelo que eu li parece que no paralelismo, por haver compartilhamento de recursos (CPU), é possível que aja “condições de corrida” entre as instruções, para resolver essa questão pode ser usado os métodos pthread_mutex_lock e o pthread_mutex_lock
+
+
+## Testes realizados com mais informações
+- Dados do PC:<br>
+Intel(R) Core(TM) i5-1035G1<br>
+CPU 1.00GHz 1.19 GHz<br>
+8GB de RAM<br>
+
+![image](https://github.com/user-attachments/assets/3bff1810-0f3a-4fc2-b32f-4cefb502be27)
+
+- SPEEDUP: Refere-se ao tempo de execução, é a divisão do tempo sem paralelismo pelo paralelo, o valor se maior que 1 informa ganho de desempenho
+- Eficiência: Indicado o status da distribuição do trabalho paralelizado, valores pertos de 1 indica que o paralelismo está sendo bem executado, é feito o cálculo pela divisão entre  speedup pelo número de threads, que nesse caso foi 8 threads
